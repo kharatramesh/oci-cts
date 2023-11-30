@@ -1,0 +1,11 @@
+#tenancy_ocid        = "ocid1.tenancy.oc1..aaaaaaaapx7u6vc6rx6l2kpzlttm3hl7focl3yn37kxaop6tiufbstdn33fq"
+tenancy_ocid        = "ocid1.vaultsecret.oc1.ap-mumbai-1.amaaaaaa4biooaqaya674qfeit6trm54vqxw2yw6hh4onkgozrfe2s2o2nkq"
+user_ocid           = "ocid1.user.oc1..aaaaaaaayl3d5wloiqjn477bjmqt25iyxooq7uucvmqdokj6if37uvfbzz3a"
+private_key_path    = "/root/.oci/oci_api_key.pem"
+fingerprint         = "f3:c5:72:24:ea:e4:e8:82:6d:25:57:21:d8:fc:f2:40"
+region              = "ap-mumbai-1"
+root_compartment_id = "ocid1.compartment.oc1..aaaaaaaaesrgm7qqh4qw4fkfelq4nwpgzi74iss6mpbo6jhhxnuzsamd3qpa"
+compartment_id      = "ocid1.compartment.oc1..aaaaaaaaesrgm7qqh4qw4fkfelq4nwpgzi74iss6mpbo6jhhxnuzsamd3qpa"
+bucket_name         = "vadapav"
+bucket_namespace    = "bmovbvfsedac"
+
