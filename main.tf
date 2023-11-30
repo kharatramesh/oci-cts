@@ -15,7 +15,7 @@ provider "oci" {
   region           = var.region
 }
 
-resource "oci_objectstorage_bucket" "cts-bucket2" {
+resource "oci_objectstorage_bucket" "samosa" {
   count = var.test1
 
   compartment_id = var.compartment_id
