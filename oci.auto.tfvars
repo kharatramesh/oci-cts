@@ -1,9 +1,9 @@
-tenancy_ocid        = ${tenancy_ocid}
-user_ocid           = ${user_ocid}
+tenancy_ocid        = ${{secrets.tenancy_ocid}}
+user_ocid           = ${{secret.suser_ocid}}
 private_key_path    = "/root/.oci/oci_api_key.pem"
-fingerprint         = ${fingerprint}
+fingerprint         = ${{secretsfingerprint}}
 region              = "ap-mumbai-1"
-compartment_id      = ${compartment_id}
+compartment_id      = ${{secrets.compartment_id}}
 bucket_name         = "vadapav"
-bucket_namespace    = ${bucket_namespace}
+bucket_namespace    = ${{secrets.bucket_namespace}}
 
